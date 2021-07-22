@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HistoryActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_history_activity"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tv_exercise_completed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXERCISE COMPLETED"
+        android:textSize="18sp"
+        android:gravity="center"
+        tools:visibility="visible"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_history_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:visibility="visible"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_data_no_available"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="NO DATA AVAILABLE"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:gravity="center"
+        tools:visibility="gone"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

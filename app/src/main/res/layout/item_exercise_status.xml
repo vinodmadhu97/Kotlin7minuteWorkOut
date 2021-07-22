@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:width="30dp"
+    android:height="30dp"
+    android:layout_margin="1dp"
+    android:gravity="center"
+    android:textColor="#212121"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    android:padding="3dp"
+    android:background="@drawable/item_circular_color_gray_background"
+    tools:text="1">
+
+</TextView>
